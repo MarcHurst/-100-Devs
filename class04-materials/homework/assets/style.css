@@ -1,0 +1,54 @@
+body {
+    background: skyblue;
+}
+
+p {
+    font-weight: bold;
+}
+
+a {
+    color: #48c748;
+}
+section {
+    width: 780px;
+    border: 5px solid #48c748;
+    margin: 29px;
+}
+
+h1,
+h2,
+p,
+li {
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+img {
+    width: 25%;
+    float: right;
+}
+
+nav {
+    width: 15%;
+}
+
+nav ul {
+    align-content: center;;
+}
+
+nav li {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+}
