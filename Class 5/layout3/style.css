@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+.clearfix {
+    overflow: auto;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  header,
+  footer,
+  .twenny,
+  .fordy {
+    border: 3px solid black;
+  }
+
+  header,
+  footer {
+    height: 100px;
+  }
+  .twenny,
+  .fordy {
+    height: 500px;
+    float: left;
+  }
+  .twenny {
+    width: 20%;
+  }
+  .fordy {
+    width: 40%;
+  }

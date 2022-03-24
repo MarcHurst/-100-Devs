@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+header,
+footer,
+.thirds,
+.half {
+    
+    border: 3px solid black;
+}
+
+header,footer {
+    height: 100px;
+    width: 100%;
+}
+
+.thirds,
+.half {
+    float:left;
+}
+
+.thirds {
+    height: 200px;
+    width: 33.333%;
+}
+
+.half {
+    height:300px;
+    width: 50%;
+}

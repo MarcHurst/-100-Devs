@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+header,footer {
+    height: 100px;
+    border: 3px solid black;
+}
+
+section.chunk {
+    height: 300px;
+    width: 33.333%;
+    border: 3px solid black;
+    float: left;
+}
+
+
+.clearfix {
+    overflow: auto;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

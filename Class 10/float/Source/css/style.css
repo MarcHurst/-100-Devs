@@ -1,0 +1,168 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: rgb(230, 233, 237);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(50,70,87);
+}
+
+li {
+  list-style: none;
+}
+
+.column {
+  width: 1120px;
+  background: rgb(246,249,252);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  margin-top: 50px;
+  /* padding-top: 20px; */
+  padding: 10px 25px 25px 0;
+}
+
+header span {
+  float: left;
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+header li {
+  width: 25%;
+  float: left;
+  font-weight: 300;
+}
+
+header nav+span {
+  float:right;
+}
+
+main {
+  padding-left: 100px;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.btn {
+  display:inline-block;
+  width: 80px;
+  height: 30px;
+  background: rgb(50,70,87);
+  color: white;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 15px;
+}
+
+h5 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 9px;
+  color: rgb(50,70,87);
+}
+
+h2 {
+
+}
+
+.nonImageFloat {
+  width: 190px;
+  float: left;
+}
+
+main > section {
+  width: 1000px;
+}
+
+form > input {
+  width: 50%;
+}
+
+form > a {
+  width: 30%;
+}
+
+form > a,
+form > input {
+  /* display: block; */
+  /* float: left; */
+}
+
+main > section > section > h2 {
+  font-size: 38px;
+  float: left;
+  color: rgb(50,70,87);
+  width: 280px;
+}
+
+main>section>img {
+  width: 450px;
+  height: 325px;
+  background-color: rgb(50,70,87);
+  float:right;
+}
+
+section > ul {
+  width: 100%
+}
+
+section li {
+  width: 25%;
+  float: left;
+  padding: 0 20px;
+}
+
+.finalSection {
+  width: 75%;
+  margin-top: 100px;
+  background: white;
+}
+/* Offwhite: 246	249	252 */
+/* darkest: 52	70	87	 */
+
+
+/* hexes 
+scottie  sites 
+a_gathoui */

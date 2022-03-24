@@ -1,0 +1,188 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  text-align: center;
+  color: white;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.column {
+  width: 1024px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background: rgb(105,118,136);
+}
+header {
+  background: rgb(105,118,136);
+  height: 50px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px;
+  float: left;
+  width: 10%;
+}
+#levelGroundLogo {
+  align-self: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 30px;
+}
+header img+a {
+  float: right;
+}
+.btn {
+  display:inline-block;
+}
+
+nav .btn{
+  color: rgb(105,118,136);
+  background: white;
+  border-radius: 6px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+nav .btn:hover {
+  color: white;
+  background: rgb(105,118,136);
+}
+
+.topSection {
+  background: rgb(105,118,136);
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.secondSection {
+  padding: 45px;
+  background: white;
+  color: black;
+  height: 300px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.thirdSection {
+  height: 600px;
+  background: rgb(220,223,226);
+  color: black;
+}
+
+.fourthSection {
+  background: white;
+  color: black;
+  padding: 200px;
+}
+
+section > .btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  color: black;
+  border: 1px solid black;
+  height: 50px;
+  width: 150px;
+  padding:10;
+  text-align: center;
+  padding: 15px 16px;
+  
+}
+
+.teaserBox{
+  width: 50%;
+  padding: 45px;
+  float: left;
+}
+
+.teaserBox img {
+  /* background: rgb(105,118,136); */
+  width: 300px;
+  height: 170px;
+}
+
+.footerLeft {
+  float:left;
+  height: 200px;
+}
+
+.footerRight {
+  float:right;
+  height: 1000px;
+  width: 200px;
+  align-items: left;
+  text-align: left;
+}
+
+footer {
+  /* Temporary for design ease! */
+  height: 250px;
+  background: rgb(24, 31, 41)
+}
+
+.footerBottom {
+  clear:both;
+}
+
+.footerLeft img {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: purple;
+  padding-right: 5px;
+}
+
+address div {
+  padding: 35px 0 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+h5{
+  font-weight: bold;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
