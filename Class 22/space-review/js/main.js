@@ -1,7 +1,7 @@
 //Arrays
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
-let arr = [1,8,7,2,3,9];
+let arr = [4,8,15,16,23,42];
 let sum = arr.reduce((prevnum, nextnum) => prevnum+nextnum,0);
 console.log(sum)
 
@@ -35,3 +35,4 @@ const isPalindrome = str => {
 };
 
 isPalindrome("firetruck");
+isPalindrome(`saippuakivikauppias`);
