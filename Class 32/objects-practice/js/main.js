@@ -102,3 +102,4 @@ class BackEnd extends Contractor{
 
 let test = new BackEnd('Codex', 97, 'Wobbles', 'Cookies')
 console.log(test.tribute)
+console.log(test)
